@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "eliverypp-20180830202932-authRole",
+            "UnauthRoleArn": "arn:aws:iam::849042453443:role/eliverypp-20180830202932-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::849042453443:role/eliverypp-20180830202932-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "eliverypp-20180830202932-deployment",
+            "UnauthRoleName": "eliverypp-20180830202932-unauthRole",
+            "StackName": "eliverypp-20180830202932",
+            "StackId": "arn:aws:cloudformation:us-east-1:849042453443:stack/eliverypp-20180830202932/ede88710-acb4-11e8-9dda-500c28604ce6"
+        }
+    }
+}

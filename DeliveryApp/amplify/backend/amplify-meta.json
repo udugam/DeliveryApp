@@ -1,0 +1,39 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "eliverypp-20180830202932-authRole",
+			"UnauthRoleArn": "arn:aws:iam::849042453443:role/eliverypp-20180830202932-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::849042453443:role/eliverypp-20180830202932-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "eliverypp-20180830202932-deployment",
+			"UnauthRoleName": "eliverypp-20180830202932-unauthRole",
+			"StackName": "eliverypp-20180830202932",
+			"StackId": "arn:aws:cloudformation:us-east-1:849042453443:stack/eliverypp-20180830202932/ede88710-acb4-11e8-9dda-500c28604ce6"
+		}
+	},
+	"auth": {
+		"cognito693dc7d6": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"[object Object]": {},
+			"lastPushTimeStamp": "2018-08-31T04:29:55.051Z",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/eliverypp-20180830202932-deployment/amplify-cfn-templates/auth/cognito693dc7d6-cloudformation-template.yml",
+				"logicalId": "authcognito693dc7d6"
+			},
+			"output": {
+				"GoogleWebClient": "820864822410-0kcb2v3mp9noi04k2a3jnafv8p766t7p.apps.googleusercontent.com",
+				"AppClientSecret": "mrdljmopio807ao5omrhkdn5jmpkh8k7p3vp06c7i4mh9f42k9i",
+				"UserPoolId": "us-east-1_xcnXEaIfW",
+				"AppClientIDWeb": "2gkfcbr28p636pgnv280hpf1aq",
+				"AppClientID": "429evs7t512chf4r6eqgtgck7l",
+				"FacebookWebClient": "2190019714575656",
+				"IdentityPoolId": "us-east-1:2dbd5940-c6d6-465b-bb77-36182d7b48dd",
+				"IdentityPoolName": "cognito693dc7d6_identitypool_693dc7d6",
+				"UserPoolName": "cognito693dc7d6_userpool_693dc7d6",
+				"CreatedSNSRole": "arn:aws:iam::849042453443:role/cognito693dc7d6_sns-role"
+			},
+			"lastPushDirHash": "Hc719ajKYe1xLkqIFPEXm4ysqk0="
+		}
+	}
+}
